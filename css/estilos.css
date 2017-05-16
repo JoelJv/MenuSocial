@@ -47,4 +47,25 @@
     padding: 10px 15px;
 
     text-decoration: none;
+
+    /*Esta es la animacion para cada icono*/
+    -webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease;
+}
+
+/*Aqui le doy color de fondo a cada icono*/
+.social ul li .icon-facebook {background: #2382e0;}
+.social ul li .icon-twitter {background: #32bdef;}
+.social ul li .icon-instagram {background: #000;}
+.social ul li .icon-pinterest {background: #e03223;}
+.social ul li .icon-github {background: #c023e0;}
+.social ul li .icon-spotify {background: #32ef7a;}
+
+
+/*Aqui agregamos la animacion, para cuando pasemos el mouse
+sobre cada icono, y a su vez este cambie de color*/
+.social ul li a:hover{
+     padding: 10px 30px;
+		 background: #54504a;
 }
